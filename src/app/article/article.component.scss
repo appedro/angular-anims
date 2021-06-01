@@ -1,0 +1,14 @@
+@import "src/styles/utils.scss";
+
+article {
+  color: $dark-blue;
+  display: flex;
+  justify-content: space-between;
+  margin: 16px 48px;
+  div {
+    margin-right: 48px;
+    h2 {
+      margin-bottom: 12px;
+    }
+  }
+}
