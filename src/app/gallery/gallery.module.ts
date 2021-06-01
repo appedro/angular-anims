@@ -1,3 +1,4 @@
+import { RouterModule } from '@angular/router';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { GalleryComponent } from './gallery.component';
@@ -9,7 +10,9 @@ import { GalleryComponent } from './gallery.component';
     GalleryComponent
   ],
   imports: [
-    CommonModule
-  ]
+    CommonModule,
+    RouterModule
+  ],
+  exports: []
 })
 export class GalleryModule { }

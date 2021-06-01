@@ -5,11 +5,15 @@ import { RouterModule, Routes } from '@angular/router';
 
 const routes: Routes = [{
   path: '',
-  component: ArticleComponent
+  component: ArticleComponent,
+
 },
 {
   path: 'gallery',
-  component: GalleryComponent
+  component: GalleryComponent,
+  data:{
+    animation: "bounce"
+  }
 }
 ];
 
